@@ -19,24 +19,43 @@ public class Solution {
         int r=0;
         int t=1000;
         int rate=2;
-        Map<Integer,String>map=new  HashMap<Integer,String>;
-        while (num>0){
-            q=num/t;
-            r=num%t;
-            num-=r;
-            if(q>0){
-                sb.append("");
-            }
+        Map<Integer,String>map=new  HashMap<Integer,String>();
+        map.put(1000,"M");
+        map.put(500,"D");
+        map.put(100,"C");
+        map.put(50,"L");
+        map.put(10,"X");
+        map.put(5,"V");
+        map.put(1,"I");
 
+        while (t!=0){
+            while(num>=t){
+                int threshold=0;
+                if(rate==5){
+                    threshold=t+t/rate*4;
+                }else {
+                    threshold=t*4;
+                }
+                if(num>=threshold){  //是否4 9
+
+                    sb.append(map.get(t*10/rate-threshold));
+                    sb.append(map.get(t*10/rate));
+                    num-=threshold;
+                }else {
+                    sb.append(map.get(t));
+                    num -= t;
+                }
+            }
             t/=rate;
             rate=10/rate;
         }
-        return null;
+        return sb.toString();
     }
 
 
     @Test
     public void test(){
-        System.out.println(intToRoman(4));
+
+        System.out.println(intToRoman(3));
     }
 }
