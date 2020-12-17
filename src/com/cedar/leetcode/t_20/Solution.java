@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_20;
 
-import org.junit.Test;
 
 //19. 删除链表的倒数第N个节点
 public class Solution {
@@ -33,13 +32,6 @@ public class Solution {
             head.next=head.next.next;
         }
     }
-/////////////
-
-    @Test
-    public void test(){
-
-    }
-}
 
 class ListNode {
     int val;
