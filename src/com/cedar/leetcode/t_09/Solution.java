@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_09;
 
-import org.junit.Test;
 
 /**
  * @author xxs
@@ -21,7 +20,7 @@ public class Solution {
         }
         return true;
     }
-    @Test
+
     public void test(){
         int i=0;
         boolean b=isPalindrome(i);

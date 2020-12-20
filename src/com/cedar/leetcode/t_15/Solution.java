@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_15;
 
-import org.junit.Test;
+
 
 import java.util.*;
 
@@ -43,7 +43,6 @@ public class Solution {
     ///////////////////////////////TEST////////////////////////////
 
 
-    @Test
     public void test(){
         int nums[]={-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0};
         List<List<Integer>> lists = threeSum(nums);

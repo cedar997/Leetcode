@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_19;
 
-import org.junit.Test;
+
 
 //19. 删除链表的倒数第N个节点
 public class Solution {
@@ -35,7 +35,7 @@ public class Solution {
     }
 /////////////
 
-    @Test
+
     public void test(){
 
     }

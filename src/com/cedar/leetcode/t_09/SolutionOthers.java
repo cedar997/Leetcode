@@ -1,13 +1,12 @@
 package com.cedar.leetcode.t_09;
 
-import org.junit.Test;
+
 
 /**
  * @author xxs
  * @date 2020/09/12
  **/
 public class SolutionOthers {
-    @Test
     public void test(){
         int i=454;
         boolean b=isPalindrome(i);

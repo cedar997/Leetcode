@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_13;
 
-import org.junit.Test;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +37,7 @@ public class Solution {
 
 
 
-    @Test
+
     public void test(){
 
         System.out.println(romanToInt("MCMXCIV"));

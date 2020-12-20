@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_12;
 
-import org.junit.Test;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -60,6 +60,6 @@ public class Solution {
         return sb.toString();
     }
     public static void main(String[] args) {
-        System.out.println(intToRoman(3));
+        System.out.println(new Solution().intToRoman(3));
     }
 }

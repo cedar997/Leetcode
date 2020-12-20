@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_14;
 
-import org.junit.Test;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -39,7 +39,6 @@ public class Solution {
     }
 
 
-    @Test
     public void test(){
         String [] strs=new String[]{"zlower","dlow","floght"};
         System.out.println(longestCommonPrefix(strs));

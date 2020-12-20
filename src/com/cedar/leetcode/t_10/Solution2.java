@@ -1,13 +1,12 @@
 package com.cedar.leetcode.t_10;
 
-import org.junit.Test;
 
 /**
  * @author xxs
  * @date 2020/09/13
  **/
 public class Solution2 {
-    @Test
+
     public void test(){
         String s="aaab";
         String p="a*b";

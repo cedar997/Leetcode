@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_06;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -51,7 +50,7 @@ public class ZTrans {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         String s = "LEETCODEISHIRING";
         int numRows = 3;
         String s1 = convert(s, 5);

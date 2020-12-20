@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_08;
 
-import org.junit.Test;
+
 
 /**
  * @author xxs
@@ -41,7 +41,7 @@ public class Solution {
         }
         return ret;
     }
-    @Test
+
     public void test(){
         String s=" ";
         int i=myAtoi(s);

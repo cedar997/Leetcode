@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_15;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -87,7 +86,7 @@ public class SolutionWithBug {
         return -1;
     }
     ///////////////////////////////TEST////////////////////////////
-    @Test
+
     public void testSort(){
         int nums[]={-1,0,1,2,-1,-4};
         int[] sort = sort(nums);
@@ -95,13 +94,13 @@ public class SolutionWithBug {
             System.out.println(sort[i]);
         }
     }
-    @Test
+
     public void testBinarySearch(){
         int nums[]={-2,0,1,1,2};
         int i = binarySearch(nums, 0, 2, 1);
         System.out.println(i);
     }
-    @Test
+
     public void test(){
         int nums[]={-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0};
         List<List<Integer>> lists = threeSum(nums);

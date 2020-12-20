@@ -1,6 +1,6 @@
 package com.cedar.leetcode.t_07;
 
-import org.junit.Test;
+
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -42,12 +42,7 @@ public class Reverse {
         int ret=(int)rev;
         return isNeg?(-ret):ret;
     }
-    @Test
-    public void test(){
-        int a=1534236469;
-        int b=reverse(a);
-            System.out.println(b);
-    }
+
 
     public int reverse2(int x) {
         int ans = 0;

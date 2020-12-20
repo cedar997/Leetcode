@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_16;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,7 +41,7 @@ public class Solution {
     ///////////////////////////////TEST////////////////////////////
 
 
-    @Test
+
     public void test(){
         int [] nums={0,2,1,-3};
         int target = 1;

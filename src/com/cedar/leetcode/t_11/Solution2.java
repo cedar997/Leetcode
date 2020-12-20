@@ -1,6 +1,5 @@
 package com.cedar.leetcode.t_11;
 
-import org.junit.Test;
 
 /**
  * @author xxs
@@ -27,7 +26,7 @@ public class Solution2 {
         return max;
     }
 
-    @Test
+
     public void test(){
         int [] list={1,8,6,2,5,4,8,3,7};
         System.out.println(maxArea(list));
